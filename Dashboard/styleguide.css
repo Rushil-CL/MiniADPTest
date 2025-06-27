@@ -1,0 +1,48 @@
+Last login: Thu Jun 26 20:25:15 on ttys000
+rushil_arafath@rushils-mbp ~ % nano globals.css
+rushil_arafath@rushils-mbp ~ % nano style.css
+rushil_arafath@rushils-mbp ~ % nano globals.css
+rushil_arafath@rushils-mbp ~ % nano styleguide.css
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  UW PICO 5.09                  File: styleguide.css                  Modified  
+
+}
+
+[data-color-mode="brand-b-light"] {
+  --color-text-neutral-on-neutral: var(--color-primitives-slate-100);
+  --color-border-default-default: var(--color-primitives-gray-300);
+} 
+  
+[data-color-mode="SDS-dark"] { 
+  --color-text-neutral-on-neutral: var(--color-primitives-slate-1000);
+  --color-border-default-default: var(--color-primitives-gray-600);
+}   
+
+
+  
+  
+  
+  
+
+  
+
+^G Get Help  ^O WriteOut  ^R Read File ^Y Prev Pg   ^K Cut Text  ^C Cur Pos   
+^X Exit      ^J Justify   ^W Where is  ^V Next Pg   ^U UnCut Text^T To Spell  

@@ -1,0 +1,48 @@
+Last login: Thu Jun 26 20:53:16 on ttys000
+rushil_arafath@rushils-mbp ~ % nano d
+rushil_arafath@rushils-mbp ~ % nano f
+rushil_arafath@rushils-mbp ~ % nano g
+rushil_arafath@rushils-mbp ~ % nano h
+rushil_arafath@rushils-mbp ~ % nano j 
+rushil_arafath@rushils-mbp ~ % nano k
+rushil_arafath@rushils-mbp ~ % nano l
+rushil_arafath@rushils-mbp ~ % nano ;
+rushil_arafath@rushils-mbp ~ % nano ;
+rushil_arafath@rushils-mbp ~ % 
+rushil_arafath@rushils-mbp ~ % nano ;
+rushil_arafath@rushils-mbp ~ % 
+rushil_arafath@rushils-mbp ~ % nano ;
+
+
+
+
+
+
+
+
+
+
+  UW PICO 5.09                       New Buffer                       Modified  
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.c$
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+
+
+^G Get Help  ^O WriteOut  ^R Read File ^Y Prev Pg   ^K Cut Text  ^C Cur Pos   
+^X Exit      ^J Justify   ^W Where is  ^V Next Pg   ^U UnCut Text^T To Spell  
