@@ -1,48 +1,18 @@
-Last login: Thu Jun 26 20:25:15 on ttys000
-rushil_arafath@rushils-mbp ~ % nano globals.css
-rushil_arafath@rushils-mbp ~ % nano style.css
-rushil_arafath@rushils-mbp ~ % nano globals.css
-rushil_arafath@rushils-mbp ~ % nano styleguide.css
-rushil_arafath@rushils-mbp ~ % nano index.html
-rushil_arafath@rushils-mbp ~ % nano globals.css
-rushil_arafath@rushils-mbp ~ % nano globals2.css
-rushil_arafath@rushils-mbp ~ % nano index.html2
-rushil_arafath@rushils-mbp ~ % nano style2.css
-rushil_arafath@rushils-mbp ~ % nano styleguide2.css
-rushil_arafath@rushils-mbp ~ % nano jit
-rushil_arafath@rushils-mbp ~ % nano jatt
-rushil_arafath@rushils-mbp ~ % nano jutt
-rushil_arafath@rushils-mbp ~ % nano jytt
-rushil_arafath@rushils-mbp ~ % nano r
-rushil_arafath@rushils-mbp ~ % nano n
-
-
-
-
-
-
-
-  UW PICO 5.09                        File: n                         Modified  
-
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
 /* a blue color as a generic focus style */
 button:focus-visible {
   outline: 2px solid #4a90e2 !important;
   outline: -webkit-focus-ring-color auto 5px !important;
 }
-a {  
+a {
   text-decoration: none;
 }
-  
- 
-
-
-  
-  
- 
-   
-  
- 
-
-
-^G Get Help  ^O WriteOut  ^R Read File ^Y Prev Pg   ^K Cut Text  ^C Cur Pos   
-^X Exit      ^J Justify   ^W Where is  ^V Next Pg   ^U UnCut Text^T To Spell  
