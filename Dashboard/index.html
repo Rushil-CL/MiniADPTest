@@ -1,47 +1,151 @@
-Last login: Wed Jun 18 15:11:56 on console
-rushil_arafath@rushils-mbp ~ % mkdir anima-dashboard
-cd anima-dashboard
-
-rushil_arafath@rushils-mbp anima-dashboard % touch index.html
-touch globals.css
-touch style.css
-touch styleguide.css
-
-rushil_arafath@rushils-mbp anima-dashboard % nano index.html  # or open in VS Code / Notepad
-
-
-
-
-
-
-
-
-
-
-
-
-
-  UW PICO 5.09                    File: index.html                    Modified  
-
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="styleguide.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="dashboard">
+      <div class="overlap-wrapper">
+        <div class="overlap">
+          <div class="rectangle"></div>
+          <div class="frame"></div>
+          <p class="dashboard-welcome">
+            <span class="text-wrapper">Dashboard<br /></span> <span class="span">Welcome back, John Doe</span>
+          </p>
+          <div class="stats-card">
+            <div class="div">+ 8 this week</div>
+            <div class="element">24</div>
+            <div class="text-wrapper-2">Feedback Given</div>
+          </div>
+          <div class="stats-card-2">
+            <div class="element-2">15%</div>
+            <div class="element-3">-2% from last month</div>
+            <div class="text-wrapper-2">KPIS At Risk</div>
+            <div class="overlap-group"><img class="lucide-circle-alert" src="img/circle-alert.svg" /></div>
+          </div>
+          <div class="stats-card-3">
+            <div class="group"><img class="vector" src="img/vector-12.svg" /></div>
+            <p class="p">+ 5% from last month</p>
+            <img class="img" src="img/image.svg" />
+            <div class="element-4">85%</div>
+            <div class="text-wrapper-2">KPIS On Track</div>
+          </div>
+          <div class="overlap-group-wrapper">
+            <div class="overlap-2">
+              <div class="text-wrapper-3">New Team Member</div>
+              <div class="ellipse"></div>
+            </div>
+          </div>
+          <div class="ellipse-2"></div>
+          <img class="lucide-chart-column" src="img/chart-column.svg" />
+          <div class="menu-header">
+            <div class="text-strong"><div class="text-strong-2">Main</div></div>
+          </div>
+          <div class="menu-heading">
+            <div class="text-strong"><div class="text-strong-2">Account</div></div>
+          </div>
+          <div class="menu-separator"><div class="rule"></div></div>
+          <div class="rule-wrapper"><div class="rule"></div></div>
+          <img class="log-out" src="img/log-out.svg" />
+          <div class="text-wrapper-4">CL PerformanceHub</div>
+          <div class="text-wrapper-5">Dashboard</div>
+          <div class="text-wrapper-6">My Team</div>
+          <div class="text-wrapper-7">My Profile</div>
+          <div class="text-wrapper-8">Metrics</div>
+          <div class="text-wrapper-9">Feedback</div>
+          <div class="text-wrapper-10">Settings</div>
+          <div class="text-wrapper-11">Logout</div>
+          <img class="vector-2" src="img/vector-15.svg" />
+          <div class="text-wrapper-12">MAIN</div>
+          <div class="text-wrapper-13">PERFORMANCE</div>
+          <div class="text-wrapper-14">ACCOUNT</div>
+          <img class="vector-3" src="img/vector.svg" />
+          <img class="vector-4" src="img/vector-6.svg" />
+          <img class="vector-5" src="img/vector-3.svg" />
+          <img class="vector-6" src="img/vector-4.svg" />
+          <button class="button"><div class="continue">View Reports</div></button>
+          <button class="continue-wrapper"><div class="continue-2">Export Data</div></button>
+          <img class="vector-7" src="img/vector-7.svg" />
+          <img class="vector-8" src="img/vector-11.svg" />
+          <div class="div-wrapper">
+            <div class="overlap-3">
+              <div class="text-wrapper-15">Latest updates and activities</div>
+              <div class="text-wrapper-16">Recent Activity</div>
+              <div class="vector-wrapper"><img class="vector-9" src="img/vector-10.svg" /></div>
+              <div class="img-wrapper"><img class="vector-10" src="img/vector-5.svg" /></div>
+              <div class="overlap-4"><img class="vector-11" src="img/vector-14.svg" /></div>
+              <div class="overlap-group-2"><img class="vector-12" src="img/vector-16.svg" /></div>
+              <div class="text-wrapper-17">KPI Updated</div>
+              <div class="text-wrapper-18">New Team Member</div>
+              <div class="text-wrapper-19">Performance Review</div>
+              <div class="text-wrapper-20">AI Evaluation</div>
+              <button class="button-2"><div class="continue-3">update</div></button>
+              <button class="button-3"><div class="continue-4">new</div></button>
+              <button class="button-4"><div class="continue-5">review</div></button>
+              <button class="button-5"><div class="continue-6">ai</div></button>
+              <p class="text-wrapper-21">Sarah Johnson’s Q2 sales target was updated</p>
+              <p class="text-wrapper-22">Sarah Johnson’s Q2 sales target was updated</p>
+              <p class="text-wrapper-23">Sarah Johnson’s Q2 sales target was updated</p>
+              <p class="text-wrapper-24">Sarah Johnson’s Q2 sales target was updated</p>
+              <div class="text-wrapper-25">2 hours ago</div>
+              <div class="text-wrapper-26">Yesterday</div>
+              <div class="text-wrapper-27">3 days ago</div>
+              <div class="text-wrapper-28">1 week ago</div>
+              <img class="vector-13" src="img/vector-2.svg" />
+              <img class="vector-14" src="img/vector-13.svg" />
+              <img class="vector-15" src="img/vector-17.svg" />
+              <img class="vector-16" src="img/vector-8.svg" />
+            </div>
+          </div>
+          <div class="team-performance">
+            <div class="overlap-5">
+              <div class="text-wrapper-29">Team Performance Overview</div>
+              <div class="text-wrapper-30">KPI achievement across departments</div>
+              <div class="text-wrapper-31">Customer Support</div>
+              <div class="text-wrapper-32">Sales</div>
+              <div class="text-wrapper-33">Marketing</div>
+              <div class="text-wrapper-34">Development</div>
+              <div class="rectangle-wrapper"><div class="rectangle-2"></div></div>
+              <div class="overlap-6"><div class="rectangle-3"></div></div>
+              <div class="overlap-7">
+                <div class="rectangle-4"></div>
+                <div class="rectangle-5"></div>
+              </div>
+              <div class="overlap-8"><div class="rectangle-6"></div></div>
+              <div class="text-wrapper-35">92%</div>
+              <div class="text-wrapper-36">78%</div>
+              <div class="text-wrapper-37">85%</div>
+              <div class="text-wrapper-38">65%</div>
+              <div class="group-2">
+                <div class="overlap-group-3"><div class="text-wrapper-39">On Track</div></div>
+              </div>
+              <div class="group-3">
+                <div class="overlap-group-3"><div class="text-wrapper-40">On Track</div></div>
+              </div>
+              <div class="group-4">
+                <div class="overlap-9"><div class="text-wrapper-41">Needs Attention</div></div>
+              </div>
+              <div class="group-5">
+                <div class="overlap-10"><div class="text-wrapper-42">At Risk</div></div>
+              </div>
+            </div>
+          </div>
+          <div class="stats-card-4">
+            <div class="text-wrapper-2">Team Members</div>
+            <div class="text-wrapper-43">12</div>
+            <div class="growth">
               <div class="element-5">+ 2 this month</div>
               <div class="icon-outline-arrow"></div>
             </div>
             <img class="vector-17" src="img/vector-18.svg" />
-            <div class="group-6"><img class="vector-18" src="img/vector-9.svg" $
+            <div class="group-6"><img class="vector-18" src="img/vector-9.svg" /></div>
           </div>
         </div>
       </div>
     </div>
   </body>
 </html>
-              
-            
-            
-            
-          
-        
-      
-    
-
-^G Get Help  ^O WriteOut  ^R Read File ^Y Prev Pg   ^K Cut Text  ^C Cur Pos   
-^X Exit      ^J Justify   ^W Where is  ^V Next Pg   ^U UnCut Text^T To Spell  
