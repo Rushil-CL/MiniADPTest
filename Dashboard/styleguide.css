@@ -1,48 +1,91 @@
-Last login: Thu Jun 26 20:25:15 on ttys000
-rushil_arafath@rushils-mbp ~ % nano globals.css
-rushil_arafath@rushils-mbp ~ % nano style.css
-rushil_arafath@rushils-mbp ~ % nano globals.css
-rushil_arafath@rushils-mbp ~ % nano styleguide.css
+:root {
+  --green-500: rgba(34, 197, 94, 1);
+  --gray-900: rgba(24, 24, 27, 1);
+  --red-500: rgba(239, 68, 68, 1);
+  --green-900: rgba(20, 83, 45, 1);
+  --green-100: rgba(220, 252, 231, 1);
+  --gray-200: rgba(228, 228, 231, 1);
+  --slate-900: rgba(15, 23, 42, 1);
+  --semi-bold-13px-font-family: "Plus Jakarta Sans", Helvetica;
+  --semi-bold-13px-font-weight: 500;
+  --semi-bold-13px-font-size: 13px;
+  --semi-bold-13px-letter-spacing: 0px;
+  --semi-bold-13px-line-height: 21px;
+  --semi-bold-13px-font-style: normal;
+  --bold-21px-font-family: "Plus Jakarta Sans", Helvetica;
+  --bold-21px-font-weight: 700;
+  --bold-21px-font-size: 21px;
+  --bold-21px-letter-spacing: 0px;
+  --bold-21px-line-height: 32px;
+  --bold-21px-font-style: normal;
+  --m3-title-small-emphasized-font-family: "Roboto", Helvetica;
+  --m3-title-small-emphasized-font-weight: 600;
+  --m3-title-small-emphasized-font-size: 14px;
+  --m3-title-small-emphasized-letter-spacing: 0.10000000149011612px;
+  --m3-title-small-emphasized-line-height: 20px;
+  --m3-title-small-emphasized-font-style: normal;
+  --body-strong-font-family: "Inter", Helvetica;
+  --body-strong-font-weight: 600;
+  --body-strong-font-size: 16px;
+  --body-strong-letter-spacing: 0px;
+  --body-strong-line-height: 139.9999976158142%;
+  --body-strong-font-style: normal;
+  --body-medium-font-family: "Inter", Helvetica;
+  --body-medium-font-weight: 500;
+  --body-medium-font-size: 14px;
+  --body-medium-letter-spacing: 0px;
+  --body-medium-line-height: 24px;
+  --body-medium-font-style: normal;
+  --m3-body-small-font-family: "Roboto", Helvetica;
+  --m3-body-small-font-weight: 400;
+  --m3-body-small-font-size: 12px;
+  --m3-body-small-letter-spacing: 0.4000000059604645px;
+  --m3-body-small-line-height: 16px;
+  --m3-body-small-font-style: normal;
+  --m3-headline-large-font-family: "Roboto", Helvetica;
+  --m3-headline-large-font-weight: 400;
+  --m3-headline-large-font-size: 32px;
+  --m3-headline-large-letter-spacing: 0px;
+  --m3-headline-large-line-height: 40px;
+  --m3-headline-large-font-style: normal;
+  --color-text-default-default: var(--color-primitives-gray-900);
+  --color-text-neutral-on-neutral: var(--color-primitives-slate-100);
+  --color-border-default-default: var(--color-primitives-gray-300);
+  --shape-corner-small: 8px;
+  --shape-corner-large: 16px;
+  --color-primitives-gray-900: rgba(30, 30, 30, 1);
+  --color-primitives-slate-100: rgba(243, 243, 243, 1);
+  --color-primitives-gray-300: rgba(217, 217, 217, 1);
+  --color-primitives-slate-1000: rgba(36, 36, 36, 1);
+  --color-primitives-gray-600: rgba(68, 68, 68, 1);
+  --size-padding-lg: 16px;
+  --size-padding-sm: 8px;
+  --size-padding-xs: 4px;
+}
 
+/*
 
+To enable a theme in your HTML, simply add one of the following data attributes to an HTML element, like so:
 
+<body data-color-mode="SDS-light">
+    <!-- the rest of your content -->
+</body>
 
+You can apply the theme on any DOM node, not just the `body`
 
+*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-  UW PICO 5.09                  File: styleguide.css                  Modified  
-
+[data-color-mode="SDS-light"] {
+  --color-text-neutral-on-neutral: var(--color-primitives-slate-100);
+  --color-border-default-default: var(--color-primitives-gray-300);
 }
 
 [data-color-mode="brand-b-light"] {
   --color-text-neutral-on-neutral: var(--color-primitives-slate-100);
   --color-border-default-default: var(--color-primitives-gray-300);
-} 
-  
-[data-color-mode="SDS-dark"] { 
+}
+
+[data-color-mode="SDS-dark"] {
   --color-text-neutral-on-neutral: var(--color-primitives-slate-1000);
   --color-border-default-default: var(--color-primitives-gray-600);
-}   
-
-
-  
-  
-  
-  
-
-  
-
-^G Get Help  ^O WriteOut  ^R Read File ^Y Prev Pg   ^K Cut Text  ^C Cur Pos   
-^X Exit      ^J Justify   ^W Where is  ^V Next Pg   ^U UnCut Text^T To Spell  
+}
